@@ -1,4 +1,4 @@
-# COSC-412-project
+# COSC-412-WeatherTeam
 Local1 Weather  
 Team 1  
   
