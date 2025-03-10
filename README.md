@@ -1,6 +1,6 @@
 # COSC-412-WeatherTeam
 Local1 Weather  
-Team 1  
+Weather Team (Group 1)  
   
 Team Members:  
 Oluwafemi Odukoya   
