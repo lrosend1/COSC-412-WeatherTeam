@@ -1,5 +1,5 @@
 # COSC-412-project
-Local1 Weather 
+Local1 Weather  
 Team 1  
   
 Team Members:  
