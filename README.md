@@ -1,5 +1,5 @@
 # COSC-412-project
-Weather app AI  
+Local1 Weather 
 Team 1  
   
 Team Members:  
