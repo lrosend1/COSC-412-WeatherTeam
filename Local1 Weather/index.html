@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local1 Weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<script src="script.js"></script>
+
+<div class="logo">
+    <img src="images/logo.png">
+    <h1>Local1Weather</h1>
+</div>
+<div class="search">
+    <input type="text" placeholder="City" spellcheck="false">
+    <button id="searchbutton"><img src="images/search.png"></button>
+    <button id="aibutton">AI</button>
+</div>
+
+
+<div class="card">
+    <div class="weather">
+        <div class="details">
+            <div class="col">
+                <div class="icon">
+                    <img src="images/rain.png" class="weather-icon">
+                    <h2 id="city">Towson</h2>
+                </div>
+            </div>
+            <div class="col">
+                <div class="bothtemps">
+                    <h2 id="temp">72°F</h2>
+                    <h3 id="highlow">58°/84°</h3>
+                </div>
+            </div>
+            <div class="col">
+                <div class="attribute">
+                    <img src="images/wind.png">
+                    <div>
+                        <p>Wind Speed</p>
+                        <p id="wind">10 mph</p>
+                    </div>
+                </div>
+                <div class="attribute">
+                    <img src="images/humidity.png">
+                    <div>
+                        <p>Humidity</p>
+                        <p id="humidity">50%</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="attribute">
+                    <img src="images/wind.png">
+                    <div>
+                        <p>Precipitation</p>
+                        <p id="precipitation">50%</p>
+                    </div>
+                </div>
+                <div class="attribute">
+                    <img src="images/wind.png">
+                    <div>
+                        <p>UV Index</p>
+                        <p id="uv">2</p>
+                    </div>
+                </div>    
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="days">
+    <div class="daydetails">
+        <img src="images/clear.png" class="todayicon">
+        <p>Today</p>
+        <p id="todaycondition">Sunny</p>
+        <p id="todayhighlow">58°/84°</p>
+    </div>
+    <div class="daydetails">
+        <img src="images/clear.png" class="oneicon">
+        <p id="oneday">Mon</p>
+        <p id="onecondition">Sunny</p>
+        <p id="onehighlow">58°/84°</p>
+        <button class="fav" id="onefav"><img src="images/notfav.png"></button>
+    </div>
+    <div class="daydetails">
+        <img src="images/clear.png" class="twoicon">
+        <p id="twoday">Tue</p>
+        <p id="twocondition">Sunny</p>
+        <p id="twohighlow">58°/84°</p>
+        <button class="fav" id="twofav"><img src="images/notfav.png"></button>
+    </div>
+    <div class="daydetails">
+        <img src="images/clear.png" class="threeicon">
+        <p id="threeday">Wed</p>
+        <p id="threecondition">Sunny</p>
+        <p id="threehighlow">58°/84°</p>
+        <button class="fav" id="threefav"><img src="images/notfav.png"></button>
+    </div>
+    <div class="daydetails">
+        <img src="images/clear.png" class="fouricon">
+        <p id="fourday">Thu</p>
+        <p id="fourcondition">Sunny</p>
+        <p id="fourhighlow">58°/84°</p>
+        <button class="fav" id="fourfav"><img src="images/notfav.png"></button>
+    </div>
+    <div class="daydetails">
+        <img src="images/clear.png" class="fiveicon">
+        <p id="fiveday">Fri</p>
+        <p id="fivecondition">Sunny</p>
+        <p id="fivehighlow">58°/84°</p>
+        <button class="fav" id="fivefav"><img src="images/notfav.png"></button>
+    </div>
+    <div class="daydetails">
+        <img src="images/clear.png" class="sixicon">
+        <p id="sixday">Sat</p>
+        <p id="sixcondition">Sunny</p>
+        <p id="sixhighlow">58°/84°</p>
+        <button class="fav" id="sixfav"><img src="images/notfav.png"></button>
+    </div>
+    <div class="daydetails">
+        <img src="images/clear.png" class="sevenicon">
+        <p id="sevenday">Sun</p>
+        <p id="sevencondition">Sunny</p>
+        <p id="sevenhighlow">58°/84°</p>
+        <button class="fav" id="sevenfav"><img src="images/notfav.png"></button>
+    </div>
+</div>
+
+<div class="favpopup" id="favpopup">
+    <div class="innerpopup">
+        <input type="text" placeholder="High" id="popuphigh">
+        <input type="text" placeholder="Low" id="popuplow">
+        <button id="confirmpopup">Favorite</button>
+        <button id="cancelpopup">Unfavorite</button>
+    </div>
+</div>
+
+
+
+<div class="hours">
+    <div class="hourdetails">
+        <img src="images/clear.png" class="sixamicon">
+        <div class="hourtext">
+            <p>6 AM</p>
+            <p id="sixamcondition">Sunny</p>
+            <p id="sixamtemp">72°</p>
+        </div>
+    </div>
+    <div class="hourdetails">
+        <img src="images/clear.png" class="nineamicon">
+        <div class="hourtext">
+            <p>9 AM</p>
+            <p id="nineamcondition">Sunny</p>
+            <p id="nineamtemp">72°</p>
+        </div>
+    </div>
+    <div class="hourdetails">
+        <img src="images/clear.png" class="twelvepmicon">
+        <div class="hourtext">
+            <p>12 PM</p>
+            <p id="twelvepmcondition">Sunny</p>
+            <p id="twelvepmtemp">72°</p>
+        </div>
+    </div>
+    <div class="hourdetails">
+        <img src="images/clear.png" class="threepmicon">
+        <div class="hourtext">
+            <p>3 PM</p>
+            <p id="threepmcondition">Sunny</p>
+            <p id="threepmtemp">72°</p>
+        </div>
+    </div>
+    <div class="hourdetails">
+        <img src="images/clear.png" class="sixpmicon">
+        <div class="hourtext">
+            <p>6 PM</p>
+            <p id="sixpmcondition">Sunny</p>
+            <p id="sixpmtemp">72°</p>
+        </div>
+    </div>
+    <div class="hourdetails">
+        <img src="images/clear.png" class="ninepmicon">
+        <div class="hourtext">
+            <p>9 PM</p>
+            <p id="ninepmcondition">Sunny</p>
+            <p id="ninepmtemp">72°</p>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
