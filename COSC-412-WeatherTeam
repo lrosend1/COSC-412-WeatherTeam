@@ -3,9 +3,30 @@ Local1 Weather
 Weather Team (Group 1)  
   
 Team Members:  
-Oluwafemi Odukoya   
-Connor Lotts  
-Luke Rosendorf  
-William Naylor  
-Samuel Casehart  
-Sanaa Jamison  
+	Oluwafemi Odukoya   
+	Connor Lotts  
+	Luke Rosendorf  
+	William Naylor  
+	Samuel Casehart  	
+	Sanaa Jamison  
+
+Overview
+	A simple weather application that provides current weather conditions and forecasts for cities in the US.
+	This project demonstrates how to fetch and display weather data from a public API.
+
+Features
+	Current weather conditions (temperature, humidity, wind speed, etc.)
+	5-day weather forecast
+	Search by city name
+	Responsive design for mobile and desktop
+	Weather icons representing current conditions
+	AI assistant to give you current conditions & basic weather tips for a selected day
+
+Technologies Used
+	HTML5, CSS3, JavaScript
+	OpenWeatherMap API
+	Node.js, Express.js
+
+Set up
+	Clone this repo git clone https://github.com/your-username/weather-project.git
+	
