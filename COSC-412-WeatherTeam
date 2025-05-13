@@ -28,5 +28,28 @@ Technologies Used
 	Node.js, Express.js
 
 Set up
-	Clone this repo git clone https://github.com/your-username/weather-project.git
-	
+	Clone this repo: git clone https://github.com/lrosend1/COSC-412-WeatherTeam.git
+	Navigate to the project directory: cd weather-app
+	Install dependencies: npm install
+	Get an API key from OpenWeatherMap (free key, don't spend money unnecessarily unless you want to)
+	Create a .env file in the root directory and add your API key: API_KEY=your_api_key_here
+	Start the application: run node server.js
+
+Usage
+	Enter a city name in the search bar
+	Press Enter or click the search button
+	View current weather and forecast information
+	Click "AI Tips" button to get tips
+
+Future Improvements
+	Add location detection
+	Include more detailed weather data
+	Implement temperature unit toggle (Celsius/Fahrenheit)
+	Add weather maps or radar
+	Improve AI & add a full AI chatbot
+
+Acknowledgments
+	OpenWeatherMap for their free API tier
+
+License
+	This project is licensed under the MIT License - see the LICENSE file for details
